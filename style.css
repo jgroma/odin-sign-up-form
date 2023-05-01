@@ -9,7 +9,6 @@ body {
     padding: 0;
     position: relative;
     font-size: 16;
-    outline: 1px solid red;
     background-color: rgba(207, 204, 198, 0.233);
 }
 
@@ -138,4 +137,26 @@ button {
 
 .login-text {
     margin-left: 2em;
+}
+
+/*form styling*/
+
+input:default {
+    border: 1px solid #E5E7EB;
+    border-radius: 0.2em;
+}
+
+input:focus {
+    -webkit-box-shadow: 6px 5px 15px 3px rgba(0,0,0,0.17); 
+box-shadow: 6px 5px 15px 3px rgba(0,0,0,0.17);
+
+}
+
+.error {
+    border: 1px solid red;
+    border-radius: 0.2em;
+}
+
+.pwd {
+    display: block;
 }

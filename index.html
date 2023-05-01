@@ -42,36 +42,36 @@
                     <div class="first-column">
                         <p>
                             <label for="first_name">FIRST NAME</label>
-                            <input type="text" id="first_name" name="first_name">
+                            <input type="text" id="first_name" name="first_name" pattern="[A-Za-z]{1,}" required>
                         </p>
                         <p>
                             <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </p>
-                        <p>
+                        <p id="password-container">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </p>
                      </div>
 
                     <div class="second-column">
                         <p>
                             <label for="last_name">LAST NAME</label>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" pattern="[A-Za-z]{1,}" required>
                         </p>
                         <p>
                             <label for="phone_number">PHONE NUMBER</label>
-                            <input type="tel" name="phone_number" id="phone_number">
+                            <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]*$" required>
                         </p>
                         <p>
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm_password" id="confirm_password">
+                            <input type="password" name="confirm_password" id="confirm_password" required>
                         </p>
                     </div>
                  </div>
 
                  <div class="button-container">
-                    <button type="submit">Create Account</button>
+                    <button id="submit" type="submit">Create Account</button>
                     <div class="login-text">Already have an account? <span style="color: #596D48; font-weight: 600;">Log in</span></div>
                  </div>   
                 
@@ -79,6 +79,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
     
 </body>
 </html>
