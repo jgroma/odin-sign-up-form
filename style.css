@@ -1,0 +1,141 @@
+@font-face {
+    font-family: norse-font;
+    src: url(/Norse-Bold.otf);
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 16;
+    outline: 1px solid red;
+    background-color: rgba(207, 204, 198, 0.233);
+}
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.image-container {
+    display: flex;
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+}
+
+.image {
+    background-image: url('images/anca-gabriela-zosin-uEUlLf2xsL4-unsplash.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 100%;
+
+}
+
+.header-container {
+    display: flex ;
+   background-color: rgb(54, 32, 2);
+   opacity: 0.6;
+   color: white;
+   position: absolute;
+   width: 700px;
+   top: 122px;
+   z-index: 10;
+
+   justify-content: center;
+   align-content: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+.header-text {
+    font-family: norse-font, sans-serif;
+    color: white;
+    font-size: 6rem;
+    vertical-align: middle;
+}
+
+.artist-credit {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    vertical-align: middle;
+    left: 180px;
+}
+
+a {
+    color: white;
+}
+
+
+.descripton-container {
+    display: flex;
+    width: 400px;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 2em;
+    margin-bottom: 4em;
+    margin-top: 6em;
+    width: 800px;
+}
+
+label {
+    display: block;
+    color: rgba(47, 51, 56, 0.897);
+}
+
+.form-header {
+    background-color: white;
+    margin-bottom: -2.7em;
+    font-size: 1.5em;
+    margin-left: 1.50em;
+    font-weight: 600;
+}
+
+.content-container {
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    margin-left: 0;
+    width: 100%;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    padding: 2em;
+    padding-top: 4em;
+    background-color: white;
+    box-shadow: 4px 4px 10px 0px rgba(124,124,124,0.91);
+}
+
+
+button {
+    margin: 2em;
+    background-color: #596D48;
+    color: white;
+    border: 0;
+    border-radius: 0.7em;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.8em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    box-shadow: 4px 4px 10px 0px rgba(124,124,124,0.91);
+}
+
+.login-text {
+    margin-left: 2em;
+}
